@@ -8,12 +8,14 @@ class Sales_model extends CI_Model {
 
         foreach ($data as $sale) {
             $item_price = trim($sale[3], '$');
-            $sub_total = trim($sale[4], '$');
+            $sub_total = trim($sale[5], '$');
+            $discount = trim($sale[4], '$');
             $arr = array(
                 'item_id' => $sale[0],
                 'item_name' => $sale[1],
                 'item_price' => $item_price,
                 'quantity' => $sale[2],
+				'discount' => $discount,
                 'sub_total' => $sub_total,
                 'date' => date('Y-m-d'),
                 'month' => date('m'),

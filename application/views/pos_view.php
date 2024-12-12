@@ -81,7 +81,7 @@
 					col_list = [];
 					for (row = 1; row < x; row++){
 						col_list = [];
-						total += parseInt(table.rows[row].cells[4].innerHTML.substr(1));
+						total += parseInt(table.rows[row].cells[5].innerHTML.substr(1));
 						for (col = 0; col < y; col++){
 							col_list.push(table.rows[row].cells[col].innerHTML);
 						}
@@ -152,7 +152,7 @@
 				<div class="col-sm-8">
 				<div class="form-group">
 					<label>Discount</label>
-					<input id="discount" type="text" name="discount" placeholder="Enter Quantity" class="form-control">
+					<input id="discount" type="text" name="discount" placeholder="Enter Discount" class="form-control">
 				</div>
 				</div>
 

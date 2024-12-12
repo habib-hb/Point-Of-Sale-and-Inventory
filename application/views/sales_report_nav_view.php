@@ -28,6 +28,7 @@
 	<th>Item</th>
 	<th>Price</th>
 	<th>Quantity</th>
+	<th>Discount</th>
 	<th>Sub Total</th>
 </tr>
 	<?php foreach ($reports as $report) :?>
@@ -36,6 +37,7 @@
 			<td><?php echo $report->item_name ?></td>
 			<td><?php echo $report->item_price ?></td>
 			<td><?php echo $report->quantity ?></td>
+			<td><?php echo $report->discount ?></td>
 			<td><?php echo $report->sub_total ?></td>
 		</tr>
 		<?php 

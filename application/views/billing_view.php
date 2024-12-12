@@ -43,6 +43,7 @@
 
 <div class="col-sm-6 col-sm-offset-3">
 <?php echo $this->session->flashdata('errorMessage'); ?>
+
 <?php echo form_open('billing/complete'); ?>
 <?php echo form_fieldset('<h2 class="text-dark">Payment</h2>'); ?>
 <div id="message">
