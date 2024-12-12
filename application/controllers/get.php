@@ -44,12 +44,15 @@ class Get extends CI_Controller {
 		$item_name = $this->input->post('item_name');
 		$price = $this->input->post('price');
 		$quantity = $this->input->post('quantity');
+		$discount = $this->input->post('discount');
+		$discount = $discount ? $discount : 0;
 		$total = $this->input->post('total');
 		$this->load->model('ajax_model');
 
 		if ($item_info = $this->ajax_model->item_info($item_name)) {
 			$id = $item_info->id;
-		$sub_total = (int)substr($price,0) * (int)$quantity;
+		$pre_sub_total = (int)substr($price,0) * (int)$quantity;
+		$sub_total = (int)$pre_sub_total - (int)$discount;
 		$amount_due = (int)$total + $sub_total;
 		$cart = [$id,$item_name,$quantity,$price,$sub_total];
 		$json = json_encode($cart);
@@ -60,6 +63,7 @@ class Get extends CI_Controller {
 			<td>$item_name</td>
 			<td>$quantity</td>
 			<td>$$price</td>
+			<td>$$discount</td>
 			<td>$$sub_total</td>
 		</tr>
 

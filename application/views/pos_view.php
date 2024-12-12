@@ -43,18 +43,20 @@
 				var item_name = $("#item").val();
 				price = $("#price").text();
 				quant = $("#quantity").val();
+				discount = $("#discount").val();
 				total = $("#amount_due").text().substr(1);
 				if( $("#item").val() !== "") {
 					if (quant !== "" && !isNaN(quant) ) {
 						$.ajax({
 							type : 'POST',
 							url : "<?php echo base_url()?>/get/cart",
-							data : {"price" : price, "quantity" : quant,"item_name" : item_name, "total" : total},
+							data : {"price" : price, "quantity" : quant,"item_name" : item_name, "discount" : discount, "total" : total},
 							datatype : 'text',
 							success : function(result){
 								$('#tbl_head').after(result);
-								$("#quantity").val(' ');
-								$("#item").val(' ');	
+								$("#quantity").val('');
+								$("#item").val('');	
+								$("#discount").val('');
 							}
 						});
 
@@ -124,6 +126,7 @@
 					<th>Item Name</th>
 					<th>Quantity</th>
 					<th>Price</th>
+					<th>Discount</th>
 					<th>Sub Total</th>	
 				</tr>
 			</table>
