@@ -66,3 +66,5 @@ $route['monthly_sales_report'] = 'sales_con/monthly_sales_report';
 $route['yearly_sales_report'] = 'sales_con/yearly_sales_report';
 $route['login'] = 'login_con/login';
 $route['dashboard'] = 'pages/dashboard';
+
+

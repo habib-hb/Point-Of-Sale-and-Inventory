@@ -25,6 +25,9 @@ class Pages extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+
+
+
 	public function new_item() {
 		$this->load->model('categories_model');
 		$data['category'] = $this->categories_model->getCategoriesName();

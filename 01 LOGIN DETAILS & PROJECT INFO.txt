@@ -10,14 +10,19 @@
 **Admin Login Details**
 
 Username: admin
-Password: codeastro.com
+Password: codeastro.com  / habibhb1230
 
 **Cashier Login Details**
 
 Username: cashier
-Password: codeastro.com
+Password: codeastro.com  /  habibhb1230
 
 **Clerk Login Details**
 
 Username: clerk
-Password: habibhb
+Password: codeastro.com  /  habibhb1230
+
+
+**Accountant Login
+Username: accountant
+Password: habibhb1230

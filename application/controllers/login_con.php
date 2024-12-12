@@ -37,6 +37,8 @@ class Login_con extends CI_Controller {
 						redirect(base_url('dashboard'));
 					}else if ($this->session->userdata('account_type') == "Clerk") {
 						redirect(base_url('inventory'));
+					}else if ($this->session->userdata('account_type') == "Accountant") {
+						redirect(base_url('dashboard'));
 					}
 				}else {
 					$this->session->set_flashdata('errorMessage','<div class="alert alert-danger">Incorrect Login Name Or Password</div>');

@@ -22,6 +22,7 @@
 		<option>Admin</option>
 		<option>Cashier</option>
 		<option>Clerk</option>
+		<option>Accountant</option>
 	</select>
 </div>
 <div class="form-group">

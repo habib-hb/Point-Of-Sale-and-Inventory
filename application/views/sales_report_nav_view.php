@@ -6,18 +6,31 @@
 	<?php echo form_fieldset('<h2 class="text-dark">Sales Report</h2>'); ?>
 		<nav>
 			<ul id="sales-nav">
+				
+				<a  style="text-decoration: none;" href="<?php echo base_url('daily_sales_report') ?>">
 				<li>
 				<i class="fa fa-calendar" aria-hidden="true"></i>
-				<a href="<?php echo base_url('daily_sales_report') ?>">Today's Sales</a></li>
+				Today's Sales</li>
+				</a>
+
+				<a  style="text-decoration: none;" href="<?php echo base_url('weekly_sales_report') ?>">
 				<li>
 				<i class="fa fa-calendar" aria-hidden="true"></i>
-				<a href="<?php echo base_url('weekly_sales_report') ?>">This Week</a></li>
+				This Week</li>
+				</a>
+
+				<a style="text-decoration: none;" href="<?php echo base_url('monthly_sales_report') ?>">
 				<li>
 				<i class="fa fa-calendar" aria-hidden="true"></i>
-				<a href="<?php echo base_url('monthly_sales_report') ?>">Monthly Sales</a></li>
+				Monthly Sales</li>
+				</a>
+
+				<a style="text-decoration: none;" href="<?php echo base_url('yearly_sales_report') ?>">
 				<li>
 				<i class="fa fa-calendar" aria-hidden="true"></i>
-				<a href="<?php echo base_url('yearly_sales_report') ?>">Annual Sales</a></li>
+				Annual Sales</li>
+				</a>
+
 			</ul>
 		</nav>
 		<br><br>
