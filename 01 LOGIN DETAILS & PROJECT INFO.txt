@@ -20,4 +20,4 @@ Password: codeastro.com
 **Clerk Login Details**
 
 Username: clerk
-Password: codeastro.com
+Password: habibhb

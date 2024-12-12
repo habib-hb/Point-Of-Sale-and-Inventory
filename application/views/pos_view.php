@@ -138,15 +138,24 @@
 					<input id="item" type="text" name="item_name" placeholder="Enter Item Name" class="form-control">
 				</div>
 				</div>
+				
 				<div class="col-sm-8">
 				<div class="form-group">
 					<label>Quantity</label>
 					<input id="quantity" type="text" name="quantity" placeholder="Enter Quantity" class="form-control">
 				</div>
 				</div>
-				<div class="col-sm-4" style="padding-top: 0px;">
-					<input style="width: 100%; margin-bottom: 5px;" id="add" type="button" name="enter" class=" btn btn-primary" value="Add To Cart">
-					<input style="width: 100%;" id="process" type="button" name="process" class=" btn btn-success" value="Check Out">
+
+				<div class="col-sm-8">
+				<div class="form-group">
+					<label>Discount</label>
+					<input id="discount" type="text" name="discount" placeholder="Enter Quantity" class="form-control">
+				</div>
+				</div>
+
+				<div class="col-sm-12" style="padding-top: 0px;">
+					<input style="width: 40%; " id="add" type="button" name="enter" class=" btn btn-primary" value="Add To Cart">
+					<input style="width: 40%; display:block; margin-top: 10px;" id="process" type="button" name="process" class=" btn btn-success" value="Check Out">
 				</div>
 			</form>
 
