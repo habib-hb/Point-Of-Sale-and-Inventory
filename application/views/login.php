@@ -27,14 +27,14 @@
     <div class="container d-flex justify-content-center align-items-center vh-100" style="margin-bottom: 20px;">
         <div class="row text-center">
             <div class="col-md-3">
-                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);">
                     <h4 style="text-decoration: underline;">Admin</h4>
                     <p>User Name: <strong>admin</strong></p>
                     <p>Password: <strong>habibhb1230</strong></p>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);">
                     <h4 style="text-decoration: underline;">Cashier</h4>
                     <p>User Name: <strong>cashier</strong></p>
                     <p>Password: <strong>habibhb1230</strong></p>
@@ -42,7 +42,7 @@
             </div>
 
 			<div class="col-md-3">
-                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);">
                     <h4 style="text-decoration: underline;">Accountant</h4>
                     <p>User Name: <strong>accountant</strong></p>
                     <p>Password: <strong>habibhb1230</strong></p>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000; box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);">
                     <h4 style="text-decoration: underline;">Clerk</h4>
                     <p>User Name: <strong>clerk</strong></p>
                     <p>Password: <strong>habibhb1230</strong></p>
