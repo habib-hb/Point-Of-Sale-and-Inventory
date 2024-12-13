@@ -21,4 +21,44 @@
 <?php echo form_close() ?>
 </div>
 </div>	
+
+	<h2 style="text-align: center;">Credentials</h2><hr>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100" style="margin-bottom: 10px;">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                    <h4 style="text-decoration: underline;">Admin</h4>
+                    <p>User Name: <strong>admin</strong></p>
+                    <p>Password: <strong>habibhb1230</strong></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                    <h4 style="text-decoration: underline;">Cashier</h4>
+                    <p>User Name: <strong>cashier</strong></p>
+                    <p>Password: <strong>habibhb1230</strong></p>
+                </div>
+            </div>
+
+			<div class="col-md-3">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                    <h4 style="text-decoration: underline;">Accountant</h4>
+                    <p>User Name: <strong>accountant</strong></p>
+                    <p>Password: <strong>habibhb1230</strong></p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="border p-4" style="border-radius: 8px; border: 2px solid #000">
+                    <h4 style="text-decoration: underline;">Clerk</h4>
+                    <p>User Name: <strong>clerk</strong></p>
+                    <p>Password: <strong>habibhb1230</strong></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
 </div>

@@ -3,7 +3,7 @@
 </div>
 <footer class="" style="clear: both;">
 	<div class="container-fluid">
-		<p>&copy; 2023 | All Rights Reserverd <br> Point Of Sales And Inventory Management</p>
+		<p>&copy; 2023 | All Rights Reserverd <br> Point Of Sales And Inventory Management System</p>
 	</div>
 </footer>
 
